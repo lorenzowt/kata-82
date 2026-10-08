@@ -57,7 +57,7 @@ for ($i = 1; $i <= $peopleInPinya; $i++) {
 
 echo(PHP_EOL);
 
-// Draw Folre
+// Draw Folre. The loop goes the length of Pinya, checks if the itteration is in the blank spaces, and draws the correct symbol
 for ($i = 1; $i <= $peopleInPinya; $i++) {
     $spaceOnEachSide = ($peopleInPinya - $peopleInFolre) / 2;
 
@@ -76,7 +76,7 @@ for ($i = 1; $i <= $peopleInPinya; $i++) {
 
 echo(PHP_EOL);
 
-//Draw Manilles
+//Draw Manilles,t he loop goes the length of Pinya, checks if the itteration is in the blank spaces, and draws the correct symbol
 for ($i = 1; $i <= $peopleInPinya; $i++) {
     $spaceOnEachSide = ($peopleInPinya - $peopleInManilles) / 2;
 
@@ -95,7 +95,7 @@ for ($i = 1; $i <= $peopleInPinya; $i++) {
 
 echo(PHP_EOL);
 
-// Draw Normal floors
+// Draw Normal floors. the internal loop has to go the length of Pinya again, checking if the itteration.
 for ($i = 0; $i < $floors; $i++) {
     $spaceOnEachSide = ($peopleInPinya - $peoplePerFloor) / 2;
     for ($j = 1; $j <= $peopleInPinya; $j++) {
